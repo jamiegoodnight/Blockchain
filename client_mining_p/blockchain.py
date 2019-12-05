@@ -129,15 +129,7 @@ def mine():
         response = {
             "message": "Incorrect proof"
         }
-        return jsonify(response), 400
-    
-    
-    # try:
-    #     req=json.get_json(request.data)
-    #     response = {
-    #         "message": "Incorrect proof"
-    #     }
-    #     return jsonify(response), 200
+        return jsonify(response), 200
 
 
 ###
